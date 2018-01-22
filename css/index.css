@@ -1,0 +1,256 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ul,
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.clearfix {
+  zoom: 1;
+}
+.clearfix:after {
+  content: '';
+  display: block;
+  height: 0;
+  clear: both;
+}
+a {
+  text-decoration: none;
+}
+.top {
+  height: 30px;
+  line-height: 30px;
+  background: #f4f4f4;
+}
+.top .top_container {
+  width: 990px;
+  margin: 0 auto;
+}
+.top .top_container ul {
+  float: right;
+}
+.top .top_container ul li {
+  float: left;
+  font-size: 12px;
+  padding-left: 5px;
+}
+.top .top_container ul li span {
+  padding: 0 5px;
+}
+.top .top_container ul li span img {
+  display: inline-block;
+  width: 21px;
+  height: 23px;
+  vertical-align: middle;
+}
+.top .top_container ul li span img.user {
+  display: inline-block;
+  width: 7px;
+  height: 12px;
+  vertical-align: middle;
+}
+.title {
+  height: 110px;
+  background: url('../images/title_bg.png');
+}
+.title .tit_container {
+  width: 990px;
+  margin: 0 auto;
+}
+.title .tit_container .logo {
+  float: left;
+}
+.title .tit_container .logo img {
+  display: block;
+  height: 110px;
+}
+.title .tit_container .search {
+  float: right;
+  width: 460px;
+  height: 40px;
+  margin-top: 35px;
+  background: #eaf1e9;
+  border: 1px solid #dce9db;
+  border-radius: 3px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+.title .tit_container .search input {
+  height: 30px;
+  width: 355px;
+  line-height: 30px;
+  box-sizing: border-box;
+  vertical-align: middle;
+  border: 1px solid #ccc;
+}
+.title .tit_container .search button {
+  width: 88px;
+  height: 30px;
+  line-height: 30px;
+  margin-left: -5px;
+  box-sizing: border-box;
+  vertical-align: middle;
+  background: #87c959;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+}
+.title .tit_container .search button span {
+  color: #fff;
+  display: inline-block;
+  width: 21px;
+  height: 23px;
+  vertical-align: middle;
+  background: url('../images/search_logo.png') no-repeat;
+}
+.banner {
+  background: url('../images/banner_bg.png') repeat-x;
+}
+.banner .banner_container {
+  position: relative;
+  width: 980px;
+  margin: 0 auto;
+}
+.banner .banner_container .banner_list {
+  text-align: center;
+}
+.banner .banner_container .banner_list a {
+  display: inline-block;
+  width: 70px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #fff;
+  margin: 0 10px;
+}
+.banner .banner_container .all_product {
+  position: absolute;
+  left: 0;
+  top: -6px;
+}
+.banner .banner_container .all_product .all_product_tit {
+  width: 200px;
+  height: 45px;
+  line-height: 45px;
+  background: url('../images/all_products_bg.png');
+  font-size: 18px;
+  color: #fff;
+  font-weight: bold;
+}
+.banner .banner_container .all_product ul {
+  background: #f9f8f4;
+}
+.banner .banner_container .all_product ul li {
+  width: 200px;
+  border-bottom: 1px solid #836e5d;
+  box-sizing: border-box;
+}
+.banner .banner_container .all_product ul li h3 {
+  font-size: 14px;
+  font-weight: bold;
+  color: #b9ada4;
+  padding-top: 14px;
+  margin-left: 15px;
+  padding-bottom: 7px;
+}
+.banner .banner_container .all_product ul li .items {
+  padding-left: 30px;
+  padding-bottom: 10px;
+}
+.banner .banner_container .all_product ul li .items a {
+  display: inline-block;
+  width: 48%;
+  font-size: 12px;
+  color: #836e5d;
+  height: 15px;
+  line-height: 15px;
+}
+.banner .banner_container .banner_content {
+  position: relative;
+  width: 579px;
+  height: 340px;
+  margin: 0 auto;
+  background: url('../images/banner.png') no-repeat;
+}
+.banner .banner_container .banner_content .tabs {
+  position: absolute;
+  bottom: 0;
+  width: 579px;
+}
+.banner .banner_container .banner_content .tabs ul li {
+  float: left;
+  width: 20%;
+  height: 34px;
+  line-height: 34px;
+  text-align: center;
+  background: #8c8777;
+}
+.banner .banner_container .banner_content .tabs ul li a {
+  font-size: 12px;
+  color: #fff;
+  text-align: center;
+}
+.banner .banner_container .juanzhou {
+  position: absolute;
+  right: -27px;
+  top: -11px;
+  width: 243px;
+}
+.banner .banner_container .juanzhou .tops {
+  width: 243px;
+  height: 12px;
+  background: url('../images/juanzhou_top.png') no-repeat;
+}
+.banner .banner_container .juanzhou .content {
+  width: 220px;
+  margin: 0 auto;
+  background: url('../images/juanzhou_bg.png') no-repeat;
+}
+.banner .banner_container .juanzhou .content .tit {
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+.banner .banner_container .juanzhou .content ul li {
+  border-bottom: 1px dashed #ccc;
+  padding: 16px 0;
+}
+.banner .banner_container .juanzhou .content ul li:last-child {
+  border-bottom: none;
+}
+.banner .banner_container .juanzhou .content ul li img {
+  display: inline-block;
+  width: 77px;
+  height: 65px;
+  margin-left: 15px;
+  margin-right: 10px;
+  padding: 3px;
+  border: 1px solid #fff;
+  vertical-align: middle;
+}
+.banner .banner_container .juanzhou .content ul li .details {
+  width: 105px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.banner .banner_container .juanzhou .content ul li .details h4 {
+  color: #87c959;
+  font-size: 12px;
+  font-weight: bold;
+}
+.banner .banner_container .juanzhou .content ul li .details p {
+  font-size: 12px;
+  color: #836e5d;
+  font-weight: normal;
+}
+.banner .banner_container .juanzhou .content .more {
+  float: right;
+}
+.banner .banner_container .juanzhou .content .more a {
+  font-size: 12px;
+  color: #87c959;
+}

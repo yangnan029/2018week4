@@ -5,157 +5,211 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>商城首页</title>
     <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
     <div class="top">
-        <div class="top_container">
+        <div class="top_container clearfix">
             <ul class="clearfix">
                 <li>亲，欢迎回来！</li>
-                <li>
-                    <span>
-                        <img src="images/car.png" alt="">
-                    </span>
-                    查看购物车</li>
-                <li>
-                    <span>
-                        <img src="images/user.png" alt="" class="user">
-                    </span>用户中心</li>
-                <li>
-                    <span>
-                        <img src="images/mobile.png" alt="" class="user">
-                    </span>联系我们</li>
+                <li class="car">查看购物车</li>
+                <li class="user">用户中心</li>
+                <li class="phone">联系我们</li>
             </ul>
         </div>
     </div>
-    <div class="title">
+    <div class="tit">
         <div class="tit_container clearfix">
             <div class="logo">
                 <img src="images/logo.png" alt="">
             </div>
             <div class="search">
-                <div class="search_content">
-                    <input type="text" name="" id="">
-                    <button>
-                        <span></span>宝贝搜索</button>
-                </div>
+                <input type="text" name="" id="">
+                <button>快速搜索</button>
             </div>
-
         </div>
     </div>
-    <div class="banner">
-        <div class="banner_container">
+    <div class="nav">
+        <div class="nav_container clearfix">
 
-            <div class="banner_list">
-                <a href="#">首页</a>
-                <a href="#">团购促销</a>
-                <a href="#">名师荟萃</a>
-                <a href="#">艺品驿站</a>
-            </div>
-            <div class="all_product">
-                <div class="all_product_tit">
-                    <span>所有商品分类</span>
+            <div class="left">
+                <h3>所有商品分类</h3>
+                <div class="all_product">
+                    <div class="items">
+                        <h6>木艺</h6>
+                        <a href="#">书香文房</a>
+                        <a href="#">桂品</a>
+                        <a href="#">佛件</a>
+                        <a href="#">美玉</a>
+                        <a href="#">木艺佛道</a>
+                    </div>
+                    <div class="items">
+                        <h6>木艺</h6>
+                        <a href="#">书香文房</a>
+                        <a href="#">桂品</a>
+                        <a href="#">佛件</a>
+                        <a href="#">美玉</a>
+                        <a href="#">木艺佛道</a>
+                    </div>
+                    <div class="items">
+                        <h6>木艺</h6>
+                        <a href="#">书香文房</a>
+                        <a href="#">桂品</a>
+                        <a href="#">佛件</a>
+                        <a href="#">美玉</a>
+                        <a href="#">木艺佛道</a>
+                    </div>
                 </div>
+            </div>
+            <div class="middle">
+                <div class="nav_list">
+                    <a href="#" class="active">首页</a>
+                    <a href="#">团购促销</a>
+                    <a href="#">名师荟萃</a>
+                    <a href="#">艺品驿站</a>
+                </div>
+                <div class="img">
+                        <img src="images/banner.png" alt=""></div>
+                <div class="nav_list_bottom">
+                    <a href="#">韵香观音王</a><a href="">御品观音王</a><a href="">满嘴留香金骏眉</a><a href="">花韵正山小种</a><a href="">极品大红袍</a>
+                </div>
+            </div>
+            <div class="right">
+                <h3>最受欢迎的设计</h3>
+                <div class="design">
+                    <ul>
+                        <li>
+                            <div class="imgs">
+                                <img src="images/product1.png" alt="">
+                            </div>
+                            <div class="desc">
+                                <h6>顶尖的设计</h6>
+                                <p>来这里的基本上都是喝茶的人，有的...</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="imgs">
+                                <img src="images/product1.png" alt="">
+                            </div>
+                            <div class="desc">
+                                <h6>顶尖的设计</h6>
+                                <p>来这里的基本上都是喝茶的人，有的...</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="imgs">
+                                <img src="images/product1.png" alt="">
+                            </div>
+                            <div class="desc">
+                                <h6>顶尖的设计</h6>
+                                <p>来这里的基本上都是喝茶的人，有的...</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="more"><span>查看更多》</span></div>
+            </div>
+        </div>
+    </div>
+    <div class="products">
+        <div class="products_container">
+            <div class="tit">
+                <h3>精品推荐</h3>
+                <a href="#">查看更多》</a>
+            </div>
+            <div class="product_lists">
                 <ul>
                     <li>
-                        <h3>木艺</h3>
-                        <div class="items">
-
-                            <a href="#">书香文房</a>
-                            <a href="#">贵品</a>
-                            <a href="">佛件</a>
-                            <a href="">美玉</a>
-                            <a href="">木艺佛道</a>
+                        <div class="img">
+                            <img src="#" alt="">
+                            <div class="descript">送礼领导长辈顶级正山小种</div>
                         </div>
+                        <p>极品岩茶正宗武夷山特产 特级大红袍</p>
+                        <span>商城价：￥58元</span>
+                        <button>购买</button>
                     </li>
 
                     <li>
-                        <h3>木艺</h3>
-                        <div class="items">
-
-                            <a href="#">书香文房</a>
-                            <a href="#">贵品</a>
-                            <a href="">佛件</a>
-                            <a href="">美玉</a>
-                            <a href="">木艺佛道</a>
+                        <div class="img">
+                            <img src="#" alt="">
+                            <div class="descript">送礼领导长辈顶级正山小种</div>
                         </div>
+                        <p>极品岩茶正宗武夷山特产 特级大红袍</p>
+                        <span>商城价：￥58元</span>
+                        <button>购买</button>
                     </li>
-
                     <li>
-                        <h3>木艺</h3>
-                        <div class="items">
-
-                            <a href="#">书香文房</a>
-                            <a href="#">贵品</a>
-                            <a href="">佛件</a>
-                            <a href="">美玉</a>
-                            <a href="">木艺佛道</a>
+                        <div class="img">
+                            <img src="#" alt="">
+                            <div class="descript">送礼领导长辈顶级正山小种</div>
                         </div>
+                        <p>极品岩茶正宗武夷山特产 特级大红袍</p>
+                        <span>商城价：￥58元</span>
+                        <button>购买</button>
+                    </li>
+                    <li>
+                        <div class="img">
+                            <img src="#" alt="">
+                            <div class="descript">送礼领导长辈顶级正山小种</div>
+                        </div>
+                        <p>极品岩茶正宗武夷山特产 特级大红袍</p>
+                        <span>商城价：￥58元</span>
+                        <button>购买</button>
                     </li>
                 </ul>
             </div>
-            <div class="banner_content">
-                <div class="tabs">
-                    <ul>
-                        <li>
-                            <a href="#">韵香观音王</a>
-                        </li>
-                        <li>
-                            <a href="#">御品观音王</a>
-                        </li>
-                        <li>
-                            <a href="#">满嘴留香金骏眉</a>
-                        </li>
-                        <li>
-                            <a href="#">花韵正山小种</a>
-                        </li>
-                        <li>
-                            <a href="#">极品大红袍</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="juanzhou">
-                <div class="tops"></div>
-                <div class="content clearfix">
-                    <div class="tit">
-                        <h3>最受欢迎的设计</h3>
-                    </div>
-                    <ul>
-                        <li class="clearfix">
-                            <img src="images/product1.png" alt="">
-                            <div class="details">
-                                <h4>顶尖的设计</h4>
-                            <p>来这里的基本上都是喝茶的人，有的...</p>
-                            </div>
-                        </li>
-                        
-                        <li class="clearfix">
-                            <img src="images/product1.png" alt="">
-                            <div class="details">
-                                <h4>顶尖的设计</h4>
-                            <p>来这里的基本上都是喝茶的人，有的...</p>
-                            </div>
-                        </li>
-                        
-                        <li class="clearfix">
-                            <img src="images/product1.png" alt="">
-                            <div class="details">
-                                <h4>顶尖的设计</h4>
-                            <p>来这里的基本上都是喝茶的人，有的...</p>
-                            </div>
-                        </li>
-                    </ul>
-                    <div class="more">
-                        <a href="#">查看更多》</a>
-                    </div>
-                </div>
-                <div class="tops"></div>
-            </div>
         </div>
 
+    </div>
+    <div class="footer"></div>
+    <div class="footer_container">
+        <div class="slogin">
+            <ul>
+                <li>品质保证</li>
+                <li>配送保证</li>
+                <li>服务保证</li>
+                <li>购买指南</li>
+                <li>7天退换货</li>
+            </ul>
+        </div>
+        <div class="footer_bottom">
+            <dl>
+                <dt>官方热线</dt>
+                <dd>400-123-456</dd>
+                <dd>客服邮箱：</dd>
+                <dd>12345678@163.com</dd>
+            </dl>
+            <dl>
+                <dt>公司简介</dt>
+                <dd>账户自主服务</dd>
+                <dd>新用户注册</dd>
+                <dd>怎样下订单</dd>
+            </dl>
+            <dl>
+                <dt>联系我们</dt>
+                <dd>账号&密码问题</dd>
+                <dd>缺货登记</dd>
+            </dl>
+            <dl>
+                <dt>隐私保护</dt>
+                <dd>退换货原则和流程</dd>
+                <dd>服务保证承诺</dd>
+                <dd>验货与签收</dd>
+            </dl>
+            <dl>
+                <dt>免责条款</dt>
+                <dd>支付方式</dd>
+                <dd>在线支付介绍</dd>
+                <dd>汇款单招领</dd>
+            </dl>
+        </div>
+        <div class="copyright">
+            <span>2005-2013 艺购商城版权所有，并保留所有权利</span>
+            <span>广东省东莞市茶山镇茶山村东岳路95号五楼</span>
+            <span>Email:12345678@qq.com</span>
+        </div>
     </div>
 </body>
 

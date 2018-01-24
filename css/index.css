@@ -172,10 +172,10 @@ body {
 }
 .nav .nav_container .right {
   position: absolute;
-  right: 0;
+  right: -5px;
   margin-top: -12px;
-  width: 220px;
-  background: url('../images/r-bg.jpg');
+  width: 245px;
+  background: url(../images/r-bg.png) 0px -7px;
 }
 .nav .nav_container .right h3 {
   font-size: 20px;
@@ -185,7 +185,7 @@ body {
   margin-top: 20px;
 }
 .nav .nav_container .right .design {
-  margin: 0 10px;
+  margin: 0 20px;
   margin-top: 8px;
 }
 .nav .nav_container .right .design ul li {
@@ -229,4 +229,156 @@ body {
 }
 .nav .nav_container .right .more span {
   vertical-align: middle;
+}
+.products {
+  background: #f9f6ef;
+  padding-bottom: 65px;
+  border-bottom: 1px solid #a6a6a6;
+}
+.products .products_container {
+  margin-top: 25px;
+}
+.products .products_container .tit {
+  position: relative;
+  background: #f6f6f6;
+  border: 1px solid #e2e2e2;
+}
+.products .products_container .tit h3 {
+  display: inline-block;
+  width: 200px;
+  text-align: center;
+  background: #77c243;
+  line-height: 40px;
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: bold;
+}
+.products .products_container .tit .more {
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  margin-top: -8px;
+  right: 20px;
+  color: #898989;
+}
+.products .products_container .product_lists {
+  padding: 30px;
+  background: #ffffff;
+}
+.products .products_container .product_lists ul li {
+  float: left;
+  width: 210px;
+  margin-right: 30px;
+}
+.products .products_container .product_lists ul li:last-child {
+  margin-right: 0;
+}
+.products .products_container .product_lists ul li .img {
+  border: 1px solid #dbdbdb;
+  box-sizing: border-box;
+  padding: 5px;
+}
+.products .products_container .product_lists ul li .img img {
+  width: 200px;
+  height: 185px;
+}
+.products .products_container .product_lists ul li .descript {
+  width: 200px;
+  line-height: 30px;
+  position: relative;
+  margin-left: 5px;
+  margin-top: -38px;
+  text-align: center;
+  color: #ffffff;
+  background: rgba(0, 0, 0, 0.5);
+}
+.products .products_container .product_lists ul li p {
+  line-height: 40px;
+  color: #836e5d;
+  text-align: center;
+}
+.products .products_container .product_lists ul li span {
+  display: block;
+  float: left;
+  color: #5d9b1e;
+  margin-left: 10px;
+}
+.products .products_container .product_lists ul li button {
+  width: 50px;
+  line-height: 18px;
+  background: #5d9b1e;
+  float: right;
+  margin-right: 10px;
+  border: none;
+  color: #ffffff;
+  font-size: 12px;
+}
+.footer .footer_container .slogin {
+  margin: 18px 0;
+  background: url('../images/footer_bg.png');
+}
+.footer .footer_container .slogin ul li {
+  float: left;
+  line-height: 66px;
+  padding-left: 120px;
+  font-size: 20px;
+  color: #572b08;
+}
+.footer .footer_container .slogin ul li:first-child {
+  padding-left: 95px;
+}
+.footer .footer_container .slogin ul li:last-child {
+  padding-left: 110px;
+}
+.footer .footer_container .footer_bottom dl {
+  float: left;
+  width: 19%;
+  box-sizing: border-box;
+}
+.footer .footer_container .footer_bottom dl dt {
+  text-align: center;
+  background: url('../images/list_bg.png') no-repeat 43px 0px;
+  line-height: 25px;
+}
+.footer .footer_container .footer_bottom dl dd {
+  text-align: center;
+}
+.footer .footer_container .footer_bottom dl.number {
+  width: 210px;
+  height: 100px;
+  box-sizing: border-box;
+  padding: 5px 10px;
+  border-right: 1px solid #cccccc;
+  text-align: left;
+}
+.footer .footer_container .footer_bottom dl.number dt {
+  font-size: 20px;
+  color: #836e5d;
+  background: none;
+  text-align: left;
+}
+.footer .footer_container .footer_bottom dl.number dd {
+  text-align: left;
+}
+.footer .footer_container .footer_bottom dl.number dd.first {
+  color: #83b30c;
+  font-size: 28px;
+  font-weight: bold;
+  font-style: italic;
+}
+.footer .footer_container .footer_bottom dl.number dd.second {
+  color: 999999;
+}
+.footer .footer_container .footer_bottom dl.number dd.third {
+  color: #83b30c;
+  font-size: 18px;
+}
+.copyright {
+  background: #836e5d;
+  line-height: 30px;
+  text-align: center;
+  color: #ffffff;
+}
+.copyright span {
+  margin: 0 5px;
 }

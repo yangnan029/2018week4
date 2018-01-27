@@ -271,3 +271,215 @@ ul,li{
         }
     } 
 }
+.company{
+    background: url('../images/chache/company_bg.png') #e0e0e0 no-repeat;
+    .title{
+        text-align: center;
+        padding-top: 60px; 
+        padding-bottom: 20px;
+    }
+    .company_container{
+        margin: 0 auto;
+        width: 1170px;
+        position: relative;
+        .left{
+            z-index: 1;
+            width: 690px;
+            height: 500px;
+            float: left;
+            border: 2px solid red;
+            box-sizing: border-box;
+        }
+        .right{
+            z-index: 1;
+            width: 480px;
+            height: 500px;
+            background: red;
+            float: left;
+        }
+        
+        .up_left{
+            position: absolute;
+            width: 600px;
+            height: 400px;
+            z-index: 2;
+            background: #b7b3b3;
+            margin-left: -30px;
+            margin-top: 50px;
+        }
+        .up_right{
+            position: absolute;
+            width: 520px;
+            height: 400px;
+            z-index: 2;
+            background: #ffffff;
+            margin-left: 610px;
+            margin-top: 50px;
+            padding: 55px;
+            text-align: center;
+            box-sizing: border-box;
+            h3{
+                text-align: center;
+                padding-bottom: 20px;
+            }
+            p{
+                font-size: 14px;
+                text-indent: 2em;
+                line-height: 1.5;
+                text-align: left;
+            }
+            button{
+                width: 140px;
+                height: 35px;
+                text-align: center;
+                margin-top: 60px;
+                background: #ffffff;
+                border: 2px solid #eeeeee;
+                color: #4f4f4f;
+                box-sizing: border-box;
+                border-radius: 3px;
+            }
+        }
+    }
+    .company_container2{
+        background: #e0e0e0;
+        padding-top: 100px;
+        width: 1200px;
+        margin: 0 auto;
+        .article_left{
+            float: left;
+            width: 820px;
+            text-align: left;
+            margin-right: 40px;
+            margin-bottom: 40px;
+            .title{
+                text-align: left;
+                font-size: 14px;
+                border-bottom: 1px solid #b6b6b6;
+                span{
+                    padding: 20px 15px 20px 40px;
+                    &.first{
+                        border-bottom: 1px solid #ff3434;
+                    }
+                    &.more{
+                        float: right;
+                        padding: 0;
+                        font-weight: 700;
+                    }
+                }
+            }
+            .articles{
+                width: 795px;
+                height: 355px;
+                padding-top: 40px;
+                ul{
+                    li{
+                        margin-bottom: 10px;
+                        &:after{
+                            margin-bottom: 0;
+                        }
+                        .imgs{
+                            width: 215px;
+                            height: 110px;
+                            background: #bbb7b7;
+                            float: left;
+                        }
+                        .desc{
+                            background: #dadada;
+                            float: left;
+                            width: 500px;
+                            padding: 16px 30px;
+                            h4{
+                                font-size: 16px;
+                            }
+                            p{
+                                margin-top: 16px;
+                                line-height: 1.5;
+                                font-size: 14px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .article_right{
+            float: left;
+            width: 260px;
+            text-align: left;
+            margin-right: 40px;
+            margin-bottom: 40px;            
+            .title{
+                text-align: left;
+                font-size: 14px;
+                border-bottom: 1px solid #b6b6b6;
+                span{
+                    &.more{
+                        float: right;
+                        padding: 0;
+                        font-weight: 700;
+                    }
+                }            
+            }
+            .articles{
+                ul{
+                    li{
+                        border-bottom: 1px dotted #d1d1d1;
+                        padding: 20px 15px 25px 35px;
+                        &:first-child{
+                        padding: 40px 15px 25px 35px;                            
+                        }
+                        h4{
+                            font-size: 16px;
+                        }
+                        p{
+                            margin-top: 16px;
+                            line-height: 1.5;
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+
+
+        }
+    }
+}
+.footer{
+    height: 225px;
+    background: #000;
+    .footer_container{
+        width: 1200px;
+        margin: 0 auto;
+        padding: 47px 0;
+        ul{
+            li{
+                float: left;
+                border-right: 1px solid #ffffff;
+                width: 400px;
+                color: #ffffff;
+                dl{
+                    dt{
+                        font-size: 24px;
+                        margin-bottom: 20px;
+                    }
+                    dd{
+                        font-size: 14px;
+                        line-height: 26px;
+                    }
+                }
+                &:first-child{
+                    margin-left: 30px;
+                }
+                &:last-child{
+                    padding-left: 45px;
+                    padding-right: 60px;
+                    dd{
+                        display: inline-block;
+                        width: 32%;
+                        line-height: 35px;
+                    }
+                }
+            }
+        }
+    }
+}

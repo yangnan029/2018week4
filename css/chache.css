@@ -408,18 +408,36 @@ li {
 }
 .company .company_container2 .article_right .articles ul li {
   border-bottom: 1px dotted #d1d1d1;
-  padding: 20px 15px 25px 35px;
+  padding: 20px 15px 25px 0px;
 }
 .company .company_container2 .article_right .articles ul li:first-child {
-  padding: 40px 15px 25px 35px;
+  padding: 40px 15px 25px 0px;
 }
 .company .company_container2 .article_right .articles ul li h4 {
   font-size: 16px;
+  padding-left: 35px;
+  position: relative;
+}
+.company .company_container2 .article_right .articles ul li h4 strong {
+  background: #ff3434;
 }
 .company .company_container2 .article_right .articles ul li p {
   margin-top: 16px;
   line-height: 1.5;
   font-size: 14px;
+  padding-left: 35px;
+  position: relative;
+}
+.company .company_container2 .article_right .articles ul li p strong {
+  background: #2a2a2a;
+}
+.company .company_container2 .article_right .articles ul li strong {
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 14px;
+  color: #ffffff;
+  padding: 1px 5px;
 }
 .footer {
   height: 225px;
